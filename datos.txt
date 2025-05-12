@@ -8,4 +8,4 @@ Turno: Tarde
 Comisión: DMT3CP
 Año: 2025
 
-Url:
+Url: https://estebanmingrone.github.io/TP1_Mingrone-Pereira-Petrenko_DMT3CP/
