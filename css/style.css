@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+/* Estilos Generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  overflow-x: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  background-color:#212121;
+  color: white;
+}
+
+.nav-item a{
+  color: white;
+  text-transform: uppercase;
+}
+
+.nav-item a:hover{
+  color: #15eeca;
+}
+
+#Logo {
+  background: url("../img/LogoConexionOrganica.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 0;
+  text-indent: -999px;
+  overflow: hidden;
+  width: 200px;
+  height: 80px; 
+  display: block;
+  margin-left: 50px;
+}
+
+
+/* Header */
+header {
+  background: #212121;
+  background: linear-gradient(90deg, rgba(33, 33, 33, 1) 0%, rgba(10, 67, 105, 1) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px #15eeca;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+.logo {
+  width: 150px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.carousel-caption{
+  background-color: #020202b0;
+  border-radius: 15px;
+  padding: 16px 32px;
+}
+
+.article-img img{
+  border-radius: 20px;
+}
+
+/* Canvas Section */
+.canvas-section {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+canvas {
+  border: 3px solid #15eeca;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.instrucciones{
+  color:#15eeca;
+}
+
+.alumno {
+  width: 50%;
+  text-align: center;
+  border-radius: 70px;
+  color: white;
+  box-shadow: 0px 0px 10px #00235f;
+}
+
+/* Footer */
+footer {
+  background: #212121;
+  background: linear-gradient(90deg, rgba(33, 33, 33, 1) 0%, rgba(10, 67, 105, 1) 100%);
+  color: white;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid 2px #15eeca;
+}
+
+.datos p {
+  font-size: 1.1rem;
+}
+
+.redes {
+  display: flex;
+  gap: 20px;
+}
+
+.redes a {
+  width: 40px;
+  height: 40px;
+}
+
+.redes img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.bi:hover{
+  fill: #15eeca;
+}
+
+/* Estilos Adicionales */
+h1, h2, h3 {
+  font-family: 'League Spartan';
+  font-weight: bold;
+  font-style: italic ;
+  text-transform: uppercase;
+  color: #15eeca;
+}
+
+h3 {
+  font-family: "League Spartan";
+}
+
+.btn{
+  background-color: #15eeca;
+  color: #020202;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px 32px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)
+}
+
+#introduccion{
+  background-image: url('../img/bg-main-min.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#introduccion h2{
+  text-shadow: 0px 1px 2px rgb(0 0 0 / 0.1), 0px 3px 2px rgb(0 0 0 / 0.1), 0px 4px 8px rgb(0 0 0 / 0.1);
+}
+
+#introduccion::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* oscurece */
+  z-index: 1;
+}
+
+#introduccion .container {
+  position: relative;
+  z-index: 2;
+}
+
+.fondo1{
+  background-image: url(../img/bgTexture2.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.fondo2{
+  background-image: url(../img/bgTexture1.png);
+  background-attachment: fixed;
+}
